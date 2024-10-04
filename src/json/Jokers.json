@@ -1,0 +1,142 @@
+{
+  "Jokers": [
+    {
+      "title": "Separacion correcta",
+      "color": "#e46c0a",
+      "description": "Sabes que no se recicla el vidrio plano y lo has separado; + 80p al jugar 2 cartas de vidrio.",
+      "bonusType": "twoSameType",
+      "type": "vidrio"
+    },
+    {
+      "title": "Bolsas resistente",
+      "color": "#e46c0a",
+      "description": "Haces uso de bolsas que soportan la tensión ejercida por el vidrio; +120p al jugar solo con vidrio.",
+      "bonusType": "allSameType",
+      "type": "vidrio"
+    },
+    {
+      "title": "El color correcto",
+      "color": "#a4a3a3",
+      "description": "Usas bolsas transparentes para el papel; +80p al jugar con 2 cartas de papel.",
+      "bonusType": "twoSameType",
+      "type": "papel y carton"
+    },
+    {
+      "title": "Solo seco",
+      "color": "#a4a3a3",
+      "description": "Eres cuidadoso con el papel, lo mantienes en un lugar seco; +120p al jugar solo con papel.",
+      "bonusType": "allSameType",
+      "type": "papel y carton"
+    },
+    {
+      "title": "Se acepta tetrapak",
+      "color": "#0085cb",
+      "description": "Sabes que el tetrapak entra en la categoría de envases; + 80p al jugar con 2 cartas de envases.",
+      "bonusType": "twoSameType",
+      "type": "envases"
+    },
+    {
+      "title": "Problema con el aceite",
+      "color": "#0085cb",
+      "description": "Sabes que los plásticos de aceite son de manejo especial; +120p al jugar solo con envases.",
+      "bonusType": "allSameType",
+      "type": "envases"
+    },
+    {
+      "title": "No se acepta papel",
+      "color": "#ffed00",
+      "description": "Sabes que el papel aluminio no entra en la categoría de aluminio; + 50p al jugar con 2 cartas de aluminio.",
+      "bonusType": "twoSameType",
+      "type": "aluminio"
+    },
+    {
+      "title": "Todo limpio",
+      "color": "#ffed00",
+      "description": "Haces una limpieza previa en todas las latas; +120p al jugar solo con aluminio.",
+      "bonusType": "allSameType",
+      "type": "aluminio"
+    },
+
+    {
+      "title": "El problema del papel",
+      "color": "#AE7EDE",
+      "description": "Te diste cuenta que el papel aluminio se incluye en Residuos Ordinarios; + 100p al jugar con aluminio y papel.",
+      "bonusType": "combination",
+      "type": "aluminio",
+      "type2": "papel y carton"
+    },
+    {
+      "title": "Reciclaje de contenedores",
+      "color": "#17C964",
+      "description": "Le encuentras lo bonito a los envaes, y los reusas; + 100p al jugar con aluminio y vidrio.",
+      "bonusType": "combination",
+      "type": "envases",
+      "type2": "vidrio"
+    },
+    {
+      "title": "!Exelente limpieza",
+      "color": "#12A150",
+      "description": "Al vaciar un contenedor lo limpias y secas; + 100p al jugar con aluminio y envases.",
+      "bonusType": "combination",
+      "type": "aluminio",
+      "type2": "envases"
+    },
+    {
+      "title": "Combinacion para el viaje",
+      "color": "#F31260",
+      "description": "Le encuentras uso al papel para amortiguar los golpes del vidrio; + 100p al jugar con papel y vidrio.",
+      "bonusType": "combination",
+      "type": "papel y carton",
+      "type2": "vidrio"
+    },
+
+    {
+      "title": "Par poderoso",
+      "color": "#F5A524",
+      "description": "Multiplica * 4 el puntaje al jugar un par",
+      "bonusType": "card",
+      "multiplier": 4,
+      "type": "Par"
+    },
+    {
+      "title": "Dos son mejor que uno",
+      "color": "#F5A524",
+      "description": "Multiplica * 2 el puntaje al jugar dos pares",
+      "multiplier": 2,
+      "bonusType": "card",
+      "type": "Doble Par"
+    },
+    {
+      "title": "Tres iguales",
+      "color": "#99C7FB",
+      "description": "Multiplica * 1.5 el puntaje al jugar tres cartas del mismo valor",
+      "multiplier": 1.5,
+      "bonusType": "card",
+      "type": "Trio de valores"
+    },
+    {
+      "title": "Colores a juego",
+      "color": "#99C7FB",
+      "description": "Multiplica * 1.5 el puntaje al jugar tres cartas del mismo color",
+      "multiplier": 1.5,
+      "bonusType": "card",
+      "type": "Trio de colores"
+    },
+    {
+      "title": "Todas iguales",
+      "color": "#F31260",
+      "description": "Multiplica * 2 el puntaje al jugar cinco cartas del mismo color",
+      "multiplier": 2,
+      "bonusType": "card",
+      "type": "Cinco colores"
+    },
+    {
+      "title": "Hotel",
+      "color": "#17C964",
+      "description": "Multiplica * 2 el puntaje al jugar una Casa Llena",
+      "multiplier": 2,
+      "bonusType": "card",
+      "type": "Casa Llena"
+    }
+  ]
+}

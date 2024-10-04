@@ -1,0 +1,33 @@
+{
+    "Rules": [
+      {
+        "title": "Par",
+        "body": "2 cartas del mismo valor"
+      },
+      {
+        "title": "Doble Par",
+        "body": "2 pares de cartas del mismo valor"
+      },
+      {
+        "title": "Trio de valores",
+        "body": "El valor de las cartas es igual"
+      },
+      {
+        "title": "Trio de colores",
+        "body": "Tres cartas del mismo color"
+      },
+      {
+        "title": "Cinco colores",
+        "body": "Cinco cartas del mismo color"
+      },
+      {
+        "title": "Carta alta",
+        "body": "La carta de mayor valor seleccionada"
+      },
+      {
+        "title": "Casa llena",
+        "body": "3 cartas del mismo valor y otras 2 iguales"
+      }
+    ]
+  }
+  
